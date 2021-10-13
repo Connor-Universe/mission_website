@@ -1,0 +1,10 @@
+footer{
+    background-color:rgb(2, 22, 49);
+    margin-top: 100px;
+  }
+  footer p,a,h6{
+    color: white;
+  }
+  footer img{
+    width: 200px;
+  }

@@ -1,0 +1,678 @@
+
+
+div.section-one div.sliding img{
+  width:100%;
+}
+div.section-one div.sliding div.carousel-caption{
+    margin-bottom:40px;
+}
+div.section-one div.sliding p.cap-head{
+  font-size: 5rem;
+  line-height: 92%;
+  font-family: serif;
+  font-weight: 600;
+  text-align: left;
+  text-shadow: 5px 5px 5px black;
+}
+div.section-one div.sliding p.cap-text{
+  font-size:1.2rem;
+  text-align: left;
+  text-shadow: 5px 5px 5px black;
+  font-family: serif;
+}
+
+div.section-one div.sliding a.caro-link{
+  color: white;
+  background-color: darkorange;
+  width: 120px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/*start of section two */
+
+
+div.section-two .contain {
+    position: relative;
+    top:-20%;
+    width: 100%;
+    margin: auto;
+    z-index: 100;
+  }
+  
+  /* Make the image to responsive */
+  div.section-two .image {
+    width: 100%;
+    height: 350px;
+  }
+  
+  div.section-two .col-lg-4{
+
+    padding-right: 0;
+    margin-right: 0;
+    padding-left:0;
+    margin-left: 0;
+  }
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+ div.section-two .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.97;
+    transition: .3s ease;
+    background-color: darkorange;
+  }
+  
+  /* When you mouse over the container, fade in the overlay icon*/
+  div.section-two .contain:hover .overlay {
+    opacity: .4;
+    background-color: black;
+  }
+  
+  /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+  div.section-two .icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: initial;
+  }
+  div.section-two p.head{
+
+     position: absolute;
+     opacity:initial;
+     color: white;
+     font-size: 1.7rem;
+     left: 27%;
+     text-align: center;
+     top:35%;
+  }
+  div.section-two p.text{
+
+    position: absolute;
+    opacity: initial;
+    color: white;
+    font-size: 1.05rem;
+    width: 90%;
+    left: 5%;
+    top:50%;
+    text-align: center;
+  }
+  div.section-two a.link-card{
+
+    position: absolute;
+    opacity: initial;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+  
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    text-align: center;
+    top:74%;
+    left:27.5%;
+  }
+  /* When you move the mouse over the icon, change color */
+  div.section-two p.head:hover {
+    color: darkorange;
+  }
+  
+
+  /* End of section two */
+
+  /* Start of section three */
+
+  .img-magnifier-container {
+    position: relative;
+  }
+  
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+  }
+  div.section-three{
+    margin-top: 100px;
+  }
+  div.section-three img{
+      width: 100%;
+  }
+  div.section-three p.head{
+    font-size: 2.8rem;
+    line-height: 95%;
+    font-weight: 600;
+  }
+  div.section-three p.sub-head{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  div.section-three p.text{
+    font-size: 1.05rem;
+  }
+  
+  div.section-three a.link{
+    color:black;
+    background-color:transparent;
+    border-style: solid;
+    width: 100px;
+    padding-right:50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: darkorange;
+    font-size: 1.1rem;
+    border-radius: 40px;
+  }
+  div.section-three div.container{
+    padding-bottom: 100px;
+  }
+  /* end of section three */
+
+
+  /* start of section four */
+
+
+  div.section-four {
+    /* The image used */
+    background-image: url("../img/pic15.jpg");
+  
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+  }
+  div.section-four .carousel-indicators{
+    display: none;
+  }
+  div.section-four p.head{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+  div.section-four p.text{
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    
+  }
+  div.carousel .active{
+    background: transparent;
+    
+  }
+  div.section-four div.card{
+    width: 350px;
+  }
+  div.section-four div.card .card-title{
+    font-weight: 600;
+    font-size:1.6rem;
+  }
+div.section-four div.card .card-text{
+  color: grey;
+  font-size: 1.05rem;
+  padding-bottom: 20px;
+}
+div.section-four div.card a.link{
+  color:grey;
+  font-size: 1.1rem;
+  background: transparent;
+  border-style: solid;
+  border-color: lightgrey;
+  width: 100px;
+  padding-right: 50px;
+  border-width: .5px;
+  padding-left:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 30px;
+}
+  /* end of section four */ 
+
+  /* start of section five */
+     
+    div.section-five {
+        background-color: rgb(238, 238, 238);
+        padding-bottom: 70px;
+    }
+    div.section-five p.head{
+      font-size: 3.5rem;
+      text-align: center;
+      font-weight: 600;
+    }
+    div.section-five p.text{
+      font-size: 1.1rem;
+      text-align: center;
+      padding-bottom: 20px;
+      color: grey;
+    }
+
+    div.section-five img{
+
+        width:100%;
+        border: solid;
+        border-radius: 50%;
+        height: 220px;
+        border-color: white;
+        border-width:10px;
+        transition: .3s ease;
+        
+    }
+
+    div.section-five img:hover{
+
+        border-color: darkorange;
+    }
+    div.section-five p.text-img{
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+  /* End of section five */
+
+  /* start of section six */
+        div.section-six{
+            /* The image used */
+    background-image: url("../img/pic19.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+        }
+
+div.section-six p.head{
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+div.section-six p.text{
+  font-size:1.1rem;
+  text-align: center;
+  color: white;
+}
+div.section-six div.container{
+  padding-top: 20px;
+}
+div.section-six div.card .card-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+
+}
+div.section-six div.card .card-text{
+  font-size:1.1rem;
+  color: grey;
+  padding-bottom: 20px;
+}
+div.section-six div.card .link{
+  font-size: 1.1rem;
+  width: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: darkorange;
+  color: black;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+  /* end of section six */
+
+  /* Start of section seven */ 
+   div.section-seven{
+    background-color: whitesmoke;
+    padding-top: 70px;
+   }
+   div.section-seven div.container div.row p.head{
+     font-size: 3rem;
+     color: white;
+     font-weight: 600;
+     text-align: left;
+     line-height: 94%;
+     padding-top: 100px;
+     padding-left: 60px;
+   }
+   div.section-seven div.container div.row p.text{
+     font-size: 2rem;
+     color: white;
+     text-align: left;
+     padding-left: 60px;
+
+   }
+  div.section-seven div.col-lg-9{
+    background-image: url('../img/pic26.jpg');
+    height:400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  /* Slideshow container */
+.slideshow-container {
+    width: 200%;
+    position: relative;
+    margin: auto;
+    box-shadow: 5px 5px 5px lightgrey;
+    top: 15%;
+    right: 100%;
+    background-color: white;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    height: 500px;
+  }
+  
+  /* Next & previous buttons */
+  div.arrows{
+      display: inline;
+  }
+  .prev, .next {
+    cursor: pointer;
+    padding: 16px;
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 54px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-left: 60px;
+  }
+  div.long-text{
+      color: black;
+      font-size: 1.3rem;
+      position: absolute;
+      top: 12%;
+      width: 90%;
+      margin: auto;
+      left: 5%;
+      font-weight: 600;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  div.text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+   
+  }
+  div.text img{
+
+    width: 30%;
+    height: 100px;
+    border-radius: 50%;
+    
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color:black ;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* end of section seven */
+
+
+@media screen and (max-width:576px){
+  div.section-one div.sliding img {
+    height: 80vh;
+  }
+  div.section-two{
+    display: none;
+  }
+  div.section-three #myimage,#myimage1,#myimage2{
+      display:none;
+  }
+  div.section-three .remove{
+      display: none;
+  }
+}
+ 
+  @media screen and (max-width:992px){
+  
+   
+    
+    div.section-one div.sliding img{
+      width:100%;
+      margin-top: 100px;
+    
+    }
+    div.section-one div.sliding div.carousel-caption{
+        margin-bottom:initial;
+    }
+    div.section-one div.sliding p.cap-head{
+      font-size:7.5vw;
+      line-height:initial;
+      font-family: serif;
+      font-weight: 600;
+      text-align: center;
+      
+    }
+    div.section-one div.sliding p.cap-text{
+      font-size:4vw;
+      text-align: center;
+      font-family: serif;
+    }
+    span.color{
+      color: darkorange;
+    }
+    div.section-one div.sliding a.caro-link{
+      color: white;
+      background-color: darkorange;
+      width: 120px;
+      padding-right: 60px;
+      padding-left: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+      font-size: 1rem;
+    }
+    /*start of section two */
+    
+    
+    div.section-two .contain {
+      position: relative;
+      top:initial;
+      width: 95%;
+      margin: auto;
+      z-index: 100;
+    }
+    
+    /* Make the image to responsive */
+    div.section-two .image {
+      width: 100%;
+      height: 350px;
+    }
+    
+    div.section-two .col-lg-4{
+    
+      padding-right: 0;
+      margin-right: 0;
+      padding-left:0;
+      margin-left: 0;
+    }
+    /* The overlay effect (full height and width) - lays on top of the container and over the image */
+    div.section-two .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.97;
+      transition: .3s ease;
+      background-color: darkorange;
+    }
+    
+    /* When you mouse over the container, fade in the overlay icon*/
+    div.section-two .contain:hover .overlay {
+      opacity: .4;
+      background-color: black;
+    }
+    
+    /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+    div.section-two .icon {
+      color: white;
+      font-size: 50px;
+      position: initial;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       
+      opacity: initial;
+      margin-top: 30px;
+    }
+    div.section-two p.head{
+    
+       position:initial;
+       opacity:initial;
+       color: white;
+       font-size: 1.7rem;
+      
+       text-align: center;
+       
+    }
+    div.section-two p.text{
+    
+      position: initial;
+      opacity: initial;
+      color: white;
+      font-size: 1.05rem;
+      width: 90%;
+      text-align: center;
+      margin: auto;
+    }
+    div.section-two p{
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    div.section-two a.link-card{
+    
+      position: initial;
+      opacity: initial;
+      color: white;
+      font-size: 1rem;
+      text-decoration: none;
+    
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border-style: solid;
+      border-radius: 20px;
+      border-color: white;
+      text-align: center;
+      
+    }
+    /* When you move the mouse over the icon, change color */
+    div.section-two p.head:hover {
+      color: darkorange;
+    }
+    div.section-three img{
+      margin-top: 20px;
+    }
+    
+    /* End of section two */
+    .slideshow-container {
+      width: 100%;
+      position: relative;
+      margin: auto;
+      box-shadow: 5px 5px 5px lightgrey;
+      top: initial;
+      right:initial;
+      background-color: white;
+      
+    }
+    div.section-five img{
+      width: 250px;
+      margin-left: 25%;
+    }
+    }

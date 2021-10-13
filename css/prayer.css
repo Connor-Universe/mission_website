@@ -1,0 +1,110 @@
+div.section-one{
+    padding-top:70px;
+}
+div.section-one img{
+
+    width: 100%;
+}
+div.section-one p{
+    text-align: center;
+    font-weight: 600;
+    color: darkorange;
+    text-shadow: 2px 2px 2px black;
+}
+div.section-one a{
+    color: darkorange;
+    text-shadow: 2px 2px 2px black;
+}
+div.section-one p.head{
+    font-size: 3rem;
+    padding-top: 150px;
+}
+div.section-one p.text{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+div.section-one p a:hover{
+  color: darkorange;
+  text-decoration: none;
+
+}
+/*end of section one */
+
+/* start of section two */
+div.section-two{
+    margin-top: 100px;
+  }
+  div.section-two p.head-top{
+      font-size: 3.5rem;
+      text-align: center;
+      font-weight: 600;
+      padding-bottom: 60px;
+  }
+  div.section-two img{
+      width: 100%;
+  }
+  div.section-two p.head{
+    font-size: 2.8rem;
+    line-height: 95%;
+    font-weight: 600;
+  }
+  div.section-two p.sub-head{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  div.section-two p.text{
+    font-size: 1.05rem;
+  }
+  
+  div.section-two a.link{
+    color:black;
+    background-color:transparent;
+    border-style: solid;
+    width: 100px;
+    padding-right:50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: darkorange;
+    font-size: 1.1rem;
+    border-radius: 40px;
+  }
+  div.section-two div.container div.col-lg-6{
+      padding-top: 20px;
+  }
+  div.section-two div.container{
+    padding-bottom: 100px;
+  }
+
+  /*ending of section two */
+
+  /*starting of section three */
+  div.section-three{
+    background-image: url('../img/pic17.jpg');
+    
+    background-size:cover;
+    
+  }
+  div.section-three p{
+      text-align: center;
+  }
+  
+  div.section-three p.head{
+      font-size: 4rem;
+      color: darkorange;
+      font-weight: 600;
+      padding-top: 100px;
+      margin-bottom: 0px;
+  }
+  div.section-three p.text{
+      color: white;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding-bottom: 100px;
+      
+  }
+  /*end of section three */
+
+  

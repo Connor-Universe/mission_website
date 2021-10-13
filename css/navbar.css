@@ -1,0 +1,127 @@
+*{
+    font-family: serif;
+  }
+  div.nav nav{
+      width:100%;
+      position: fixed;
+      z-index: 1000;
+      background-color: white;
+      box-shadow: 5px 5px 5px lightgrey;
+      
+  }
+  div.nav nav a img{
+    width: 70px;
+  }
+  div.nav nav ul.navbar-nav a.nav-link{
+    width: 120px;
+  
+  
+    font-size: 1.1rem;
+    color: black;
+    padding-top: 20px;
+    padding-bottom:10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  div.nav nav ul.navbar-nav a.nav-link:hover{
+    background-color: darkorange;
+    color: white;
+  }
+  
+  div.nav .one{
+    border-bottom-style:solid;
+    border-bottom-color:darkorange;
+    border-bottom-width: 2px;
+  }
+  div.nav nav ul.nav-second a.nav-link {
+    width: 150px;
+    
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:40px;
+    font-weight: 600;
+  }
+  
+  
+  div.nav nav ul.nav-second{
+    margin-left: 15%;
+  }
+  div.nav div.vl {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: lightgrey;
+    height:70px;
+    padding: none;
+    margin-right: 8%;
+  }
+  div.nav div.vl-r{
+  
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgrey;
+    height:70px;
+    padding: none;
+    margin-left: 8%;
+    
+  }
+  div.nav nav .toggletop{
+    font-size: 2.5rem;
+    color: darkorange;
+  }
+  .dropdown-menu{
+    background-color: rgb(22, 21, 21);
+    border-bottom-style: solid;
+    border-bottom-color: darkorange;
+    width: 400px;
+  }
+  span.color{
+    color: darkorange;
+  }
+  div.nav .dropdown-item{
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  div.nav .dropdown-item:hover{
+    background-color: darkorange;
+  }
+
+@media screen and (max-width:992px){
+
+    div.nav nav ul.navbar-nav a.nav-link{
+        width: 100%;
+      
+      }
+      div.nav nav ul.navbar-nav a.nav-link:hover{
+        background-color: darkorange;
+        color: white;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .one{
+        border-bottom-style:initial;
+        border-bottom-color:initial;
+        border-bottom-width: initial;
+      }
+      div.nav nav ul.nav-second a.nav-link {
+        width: 100%;
+      
+      }
+      
+      div.nav nav ul.nav-second{
+        margin-left:initial;
+      }
+      div.nav div.vl {
+        display: none;
+      }
+      div.nav div.vl-r{
+      
+        display: none;
+        
+      }
+}
